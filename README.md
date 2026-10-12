@@ -1,70 +1,79 @@
-# 🌱 Magic Garden AutoFarm
+<div align="center">
 
-**Automatisches Ernten und Verkaufen für [Magic Garden](https://magicgarden.gg/) – direkt im Browser über Tampermonkey.**
+# Hey there, I'm Maik 👋
+### 🕹️ Professional AI Game Developer & Prompt Architect 🚀
 
-> **Aktuelle Version:** V13.0.0 · Inoffizielles Community-Projekt, nicht mit Magic Garden verbunden.
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&width=550&lines=Writing+100%25+of+my+code+with+ChatGPT;Alt%2BTab+Champion+when+the+boss+walks+by;Building+a+game+where+physics+don't+exist;Waiting+for+my+AI+tokens+to+reset)](https://git.io/typing-svg)
 
-## 🚀 Installation
+<br/>
 
-**Voraussetzungen:**
-- Chrome, Brave oder ein anderer Browser mit [Tampermonkey](https://www.tampermonkey.net/)
-- Das separate Userscript **Garden Companion** muss installiert und aktiviert sein. Es liefert die benötigten Spieldaten und stellt unter anderem den Pflanzenschutz bereit.
+[![GitHub](https://img.shields.io/badge/Role-Azubi%20im%20Überlebensmodus-black?style=for-the-badge&logo=github)](https://github.com)
+[![ChatGPT](https://img.shields.io/badge/Game_Engine-ChatGPT_Copy_Paste_v4-74aa9c?style=for-the-badge&logo=openai)](https://chatgpt.com)
+[![Git](https://img.shields.io/badge/Git_Strategy-git_push_--force-critical?style=for-the-badge&logo=git)](https://git-scm.com)
+[![Coffee](https://img.shields.io/badge/Fuel-Kaffee_%26_Hoffnung-6F4E37?style=for-the-badge&logo=coffeescript)](https://github.com)
 
-1. Installiere Tampermonkey und Garden Companion.
-2. **[Magic Garden AutoFarm installieren](https://raw.githubusercontent.com/maik26-hub/magic-garden-autofarm/main/MagicGardenAutoFarm.user.js)** – der Link öffnet bei korrekt eingerichteter Tampermonkey-Installation den Installationsdialog.
-3. Klicke auf **Installieren** und öffne [Magic Garden](https://magicgarden.gg/).
-4. Wähle die gewünschten Felder und klicke auf **▶ Start**.
-
-**Wichtig:** Aktiviere nur **eine** Version von Magic Garden AutoFarm gleichzeitig. Garden Companion muss aktiv bleiben.
-
-## ✨ Funktionen
-
-| Funktion | Beschreibung |
-| --- | --- |
-| 🌾 Auto-Harvest | Erntet reife Pflanzen auf ausgewählten Feldern. |
-| 💰 Auto-Sell | Verkauft nicht favorisierte Erzeugnisse automatisch, sobald mindestens 40 verkaufbare Items vorliegen. |
-| ⚡ Adaptive Geschwindigkeit | Passt die Pause zwischen Ernten an Serverantwortzeiten an (75–1.000 ms). |
-| 🧩 Feldauswahl | 2 × 10 × 10 Felder, dauerhaft im Browser gespeichert. |
-| ⏱️ Laufzeit-Timer | Zählt aktive Laufzeit; Stop pausiert den Timer. |
-| 💤 Anti-AFK (experimentell) | Sendet synthetische Mausbewegungsereignisse nach Inaktivität. **Kein garantierter Schutz vor AFK-Kicks.** |
-| 🔌 Auto-Reconnect | Wartet bei Verbindungsverlust und kann nach längerer Unterbrechung kontrolliert neu laden. |
-| 🔁 Auto-Resume | Setzt einen zuvor aktiven Lauf nach Neuladen im selben Tab fort. |
-| 🛡️ Fehlerbehandlung | Wartet bei vorübergehenden Problemen und respektiert den Pflanzenschutz von Garden Companion. |
-| ⌨️ F8-Hotkey | Startet oder stoppt die AutoFarm ohne Öffnen des Menüs. |
-| 📦 Hintergrundbetrieb | Erkennt inaktive Tabs; Browser-Drosselung kann den Betrieb trotzdem verlangsamen. |
-| 📋 Einklappbares Menü | Start/Stop, Status, Laufzeit und Feldauswahl im Spiel. |
-
-## 🎮 Bedienung
-
-- **▶ Start:** AutoFarm einschalten.
-- **■ Stop:** AutoFarm und Timer anhalten.
-- **F8:** Zwischen Start und Stop umschalten (außer beim Tippen in Eingabefeldern).
-- **+/−:** Menü aus- oder einklappen.
-- **Grüne Felder:** Für die Ernte ausgewählt; Änderungen werden automatisch gespeichert.
-- **Optionen im Menü:** Adaptive Geschwindigkeit, experimenteller Anti-AFK und Auto-Neuladen können einzeln deaktiviert werden.
-
-## 🔄 Updates
-
-Tampermonkey kann neue Versionen automatisch erkennen, sofern die Datei über den Installationslink installiert wurde und im Skript `@updateURL` sowie `@downloadURL` korrekt eingetragen sind.
-
-Für neue Releases dieselbe Datei **`MagicGardenAutoFarm.user.js`** ersetzen und die Versionsnummer in `@version` erhöhen. Manuell prüfen: **Tampermonkey → Dashboard → Nach Updates suchen**.
-
-## ⚠️ Hinweise
-
-- **Anti-AFK ist nicht garantiert:** künstliche Browserereignisse gelten nicht als echte Benutzereingaben und können ignoriert werden.
-- Das Skript benötigt den aktuellen Spielzustand und die WebSocket-Integration von Garden Companion; Spieländerungen können Funktionen beeinträchtigen.
-- Geschützte Pflanzen sollen **nicht** gegen den Pflanzenschutz geerntet werden.
-- Automatisierung kann gegen die Regeln des jeweiligen Spiels verstoßen. Verwendung auf eigenes Risiko.
-- Keine Zugangsdaten, Cookies oder privaten WebSocket-Mitschnitte veröffentlichen.
-
-## 🛠️ Fehlersuche
-
-Wenn nichts passiert, prüfe, ob Magic Garden geladen ist, **Garden Companion aktiv** ist und nicht gleichzeitig eine ältere AutoFarm läuft. Weitere Statusdaten findest du mit `F12` in der Konsole:
-
-```javascript
-MGAutoFarmV13.status()
-```
+</div>
 
 ---
 
-**Repository:** [maik26-hub/magic-garden-autofarm](https://github.com/maik26-hub/magic-garden-autofarm)
+### 🎮 Über mein Game-Projekt (`Project: GotNoClue`)
+Ich sitze aktuell während der Arbeitszeit intensiv an meinem revolutionären Indie-Game. Hier ist der aktuelle Entwicklungsstand:
+
+- 👾 **Game Engine:** Habe 4-mal die Engine gewechselt, weil die KI den Code der vorherigen Engine zerschossen hat.
+- 🧙‍♂️ **Physik-Engine:** Der Hauptcharakter fällt nach Spawn sofort durch den Boden. Die KI sagt, das ist ein *„psychologisches Feature“*.
+- 🎨 **Graphics & Assets:** Midjourney spuckt coole Bilder aus, aber ich weiß bis heute nicht, wie man ein `.png` als 3D-Hitbox einbaut.
+- 🐛 **Bug-Tracking:** Wenn ein Error kommt, lösche ich einfach die Zeile. Wo kein Code, da kein Bug.
+- 🚀 **Release-Date:** Q4 2038 (oder sobald Claude mir beibringt, wie man eine `.exe` baut).
+
+---
+
+### 🛠️ Mein täglich genutzter Tech-Stack
+
+<div align="center">
+
+| Skill / Tool | Proficiency | Täglicher Einsatz |
+| :--- | :---: | :--- |
+| **Alt + Tab** | `100%` | Switch von Unity/YouTube auf VS Code, sobald Schritte im Gang hörbar sind |
+| **ChatGPT Prompting** | `98%` | *"Fix this error without changing anything but make it work"* |
+| **Code Understanding** | `2%` | Wenn es grün wird im Terminal, atme ich kurz auf |
+| **Git & Versioning** | `5%` | `git commit -m "bitte funktionier endlich v3 final"` |
+| **Aufgaben vom Ausbilder** | `Pending` | Werden heimlich an DeepSeek weiterdelegiert |
+
+</div>
+
+---
+
+### 📈 Meine Entwickler-Statistiken
+
+<div align="center">
+
+```text
+┌─────────────────────────────────────────────────────────────┐
+│                   MAIK'S REAL-TIME STATS                    │
+├─────────────────────────────────────────────────────────────┤
+│  Selbst geschriebene Zeilen:     0                          │
+│  ChatGPT Tokens verbrannt:       14.892.400 / Tag           │
+│  Code Reviews bestanden:         0 / 12                     │
+│  Druckerpapier aufgefüllt:       1x (versehentlich)         │
+│  Ausbilder fast zur Verzweiflung getrieben: 42x             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+---
+
+### ⚡ Aktuelle Challenges im Betrieb
+- 🔭 **Woran ich gerade arbeite:** So konzentriert auf den Bildschirm starren, dass niemand merkt, dass ich schlafe.
+- 🌱 **Was ich heute gelernt habe:** Man sollte API-Keys nicht unzensiert ins öffentliche GitHub Repo pushen.
+- 💬 **Frag mich über:** Wie man 3 Stunden lang an einem Button arbeitet, der am Ende gar nichts tut.
+- 📫 **Kontakt:** Bitte nicht ansprechen, die KI generiert gerade 400 Zeilen Code, den ich nicht verstehe.
+
+---
+
+<div align="center">
+
+> *"Ein guter Coder schreibt sauberen Code. Ich frage einfach die KI so lange, bis die roten Linien verschwinden."*  
+> — **Maik**, Azubi des Monats (symbolisch)
+
+</div>
